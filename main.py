@@ -57,9 +57,9 @@ def generate_profile_card():
     )
 
     rank_level_texts = [
-        Text("Classement ", color="#00fa81", font=poppins),
+        Text("Rank ", color="#00fa81", font=poppins),
         Text(f"{rank}", color="#1EAAFF", font=poppins),
-        Text("   Niveau ", color="#00fa81", font=poppins),
+        Text("   Level ", color="#00fa81", font=poppins),
         Text(f"{level}", color="#1EAAFF", font=poppins),
     ]
 
